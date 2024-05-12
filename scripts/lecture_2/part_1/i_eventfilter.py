@@ -41,7 +41,9 @@ class Window(QtWidgets.QWidget):
 
         if watched == self.label and event.type() == QtCore.QEvent.Type.Wheel:
             print("wheel changed")
-            print(event.angleDelta())
+            print(type(event))
+            print(event.type())
+            #print(event.angleDelta()) не работает
 
         return super(Window, self).eventFilter(watched, event)
 

@@ -58,7 +58,7 @@ class Window(QtWidgets.QWidget):
         :param event: QtGui.QMouseEvent
         :return: None
         """
-
+        #print(event.button())
         if event.button() == QtCore.Qt.MouseButton.LeftButton:
             print(ctime(), "mouseReleaseEvent LEFT")
             self.label.setText("mouseReleaseEvent LEFT")
