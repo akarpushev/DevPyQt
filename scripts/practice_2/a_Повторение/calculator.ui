@@ -231,6 +231,19 @@
     <string>=</string>
    </property>
   </widget>
+  <widget class="QPushButton" name="C">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>200</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>C</string>
+   </property>
+  </widget>
  </widget>
  <resources/>
  <connections/>

@@ -75,6 +75,9 @@ class Ui_Form(object):
         self.equal = QPushButton(Form)
         self.equal.setObjectName(u"equal")
         self.equal.setGeometry(QRect(210, 200, 41, 41))
+        self.C = QPushButton(Form)
+        self.C.setObjectName(u"C")
+        self.C.setGeometry(QRect(270, 200, 41, 41))
 
         self.retranslateUi(Form)
 
@@ -98,5 +101,6 @@ class Ui_Form(object):
         self.multiply.setText(QCoreApplication.translate("Form", u"*", None))
         self.divide.setText(QCoreApplication.translate("Form", u"/", None))
         self.equal.setText(QCoreApplication.translate("Form", u"=", None))
+        self.C.setText(QCoreApplication.translate("Form", u"C", None))
     # retranslateUi
 
