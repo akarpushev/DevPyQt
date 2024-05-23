@@ -3,10 +3,10 @@ import os
 import copy
 import random
 
-from PySide2 import QtWidgets
-from PySide2.QtCore import QRect, Qt
-from PySide2.QtGui import QPainter, QFont, QColor, QPen
-from PySide2.QtWidgets import QMainWindow, QMessageBox, QSizePolicy
+from PySide6 import QtWidgets
+from PySide6.QtCore import QRect, Qt
+from PySide6.QtGui import QPainter, QFont, QColor, QPen
+from PySide6.QtWidgets import QMainWindow, QMessageBox, QSizePolicy
 
 
 class GameForm(QMainWindow):
